@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C537202E1F842B9E00D4E7EC /* MangeCowsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C537202D1F842B9E00D4E7EC /* MangeCowsViewController.m */; };
+		C53720311F8AED9700D4E7EC /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C53720301F8AED9600D4E7EC /* SignInViewController.m */; };
+		C53720341F904A7C00D4E7EC /* CreateAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C53720331F904A7C00D4E7EC /* CreateAccountViewController.m */; };
+		C54B8C671F820C4C006E2A87 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C54B8C651F820C4C006E2A87 /* SignUpViewController.m */; };
+		C54B8C681F820C4C006E2A87 /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C54B8C661F820C4C006E2A87 /* SignUpViewController.xib */; };
+		C589EACF1F81C37E00B06B4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C589EACE1F81C37E00B06B4D /* main.m */; };
+		C589EAD21F81C37E00B06B4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C589EAD11F81C37E00B06B4D /* AppDelegate.m */; };
+		C589EAD51F81C37E00B06B4D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C589EAD41F81C37E00B06B4D /* ViewController.m */; };
+		C589EAD81F81C37E00B06B4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C589EAD61F81C37E00B06B4D /* Main.storyboard */; };
+		C589EADA1F81C37E00B06B4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C589EAD91F81C37E00B06B4D /* Assets.xcassets */; };
+		C589EADD1F81C37E00B06B4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C589EADB1F81C37E00B06B4D /* LaunchScreen.storyboard */; };
+		C589EAE81F81C37F00B06B4D /* Cow_Tracker_v2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C589EAE71F81C37F00B06B4D /* Cow_Tracker_v2Tests.m */; };
+		C589EAF31F81C37F00B06B4D /* Cow_Tracker_v2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C589EAF21F81C37F00B06B4D /* Cow_Tracker_v2UITests.m */; };
+		C589EB021F81C39400B06B4D /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C589EB011F81C39400B06B4D /* SWRevealViewController.m */; };
+		C589EB041F81C69000B06B4D /* sidebarmenuicon.png in Resources */ = {isa = PBXBuildFile; fileRef = C589EB031F81C69000B06B4D /* sidebarmenuicon.png */; };
+		C589EB061F81C6F200B06B4D /* sidebarmenuicon 2.png in Resources */ = {isa = PBXBuildFile; fileRef = C589EB051F81C6F200B06B4D /* sidebarmenuicon 2.png */; };
+		C589EB081F81C76500B06B4D /* button 2.png in Resources */ = {isa = PBXBuildFile; fileRef = C589EB071F81C76500B06B4D /* button 2.png */; };
+		C589EB121F81C89100B06B4D /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C589EB111F81C89100B06B4D /* MainMenuViewController.m */; };
+		C595B2E11F9ED89900D03C2A /* blueDevilText.png in Resources */ = {isa = PBXBuildFile; fileRef = C595B2E01F9ED89900D03C2A /* blueDevilText.png */; };
+		C595B2E51F9EDBCD00D03C2A /* CowSkull.png in Resources */ = {isa = PBXBuildFile; fileRef = C595B2E41F9EDBCD00D03C2A /* CowSkull.png */; };
+		C595B2E91F9EDD0C00D03C2A /* COW.png in Resources */ = {isa = PBXBuildFile; fileRef = C595B2E81F9EDD0C00D03C2A /* COW.png */; };
+		C595B2EB1FA651EE00D03C2A /* CowTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C595B2EA1FA651EE00D03C2A /* CowTableViewCell.xib */; };
+		C595B2EE1FA6529800D03C2A /* CowTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C595B2ED1FA6529800D03C2A /* CowTableViewCell.m */; };
+		C5F14DDA1FF5B36200CE3943 /* AddCowSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F14DD91FF5B36200CE3943 /* AddCowSecondViewController.m */; };
+		C5F35B481FFEE0700082AF53 /* CowDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F35B471FFEE0700082AF53 /* CowDataViewController.m */; };
+		C5F890EA1FF0460400517FBF /* AddCow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5F890E91FF0460400517FBF /* AddCow.storyboard */; };
+		C5F890ED1FF0469800517FBF /* AddCowFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F890EC1FF0469800517FBF /* AddCowFirstViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C589EAE41F81C37F00B06B4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C589EAC21F81C37E00B06B4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C589EAC91F81C37E00B06B4D;
+			remoteInfo = "Cow Tracker v2";
+		};
+		C589EAEF1F81C37F00B06B4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C589EAC21F81C37E00B06B4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C589EAC91F81C37E00B06B4D;
+			remoteInfo = "Cow Tracker v2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C537202C1F842B9E00D4E7EC /* MangeCowsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MangeCowsViewController.h; sourceTree = "<group>"; };
+		C537202D1F842B9E00D4E7EC /* MangeCowsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MangeCowsViewController.m; sourceTree = "<group>"; };
+		C537202F1F8AED9600D4E7EC /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		C53720301F8AED9600D4E7EC /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		C53720321F904A7C00D4E7EC /* CreateAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateAccountViewController.h; sourceTree = "<group>"; };
+		C53720331F904A7C00D4E7EC /* CreateAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateAccountViewController.m; sourceTree = "<group>"; };
+		C54B8C641F820C4C006E2A87 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		C54B8C651F820C4C006E2A87 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		C54B8C661F820C4C006E2A87 /* SignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
+		C589EACA1F81C37E00B06B4D /* Cow Tracker v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cow Tracker v2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C589EACE1F81C37E00B06B4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C589EAD01F81C37E00B06B4D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C589EAD11F81C37E00B06B4D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C589EAD31F81C37E00B06B4D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C589EAD41F81C37E00B06B4D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C589EAD71F81C37E00B06B4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C589EAD91F81C37E00B06B4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C589EADC1F81C37E00B06B4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C589EADE1F81C37F00B06B4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C589EAE31F81C37F00B06B4D /* Cow Tracker v2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cow Tracker v2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C589EAE71F81C37F00B06B4D /* Cow_Tracker_v2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cow_Tracker_v2Tests.m; sourceTree = "<group>"; };
+		C589EAE91F81C37F00B06B4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C589EAEE1F81C37F00B06B4D /* Cow Tracker v2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cow Tracker v2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C589EAF21F81C37F00B06B4D /* Cow_Tracker_v2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cow_Tracker_v2UITests.m; sourceTree = "<group>"; };
+		C589EAF41F81C37F00B06B4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C589EB001F81C39400B06B4D /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		C589EB011F81C39400B06B4D /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		C589EB031F81C69000B06B4D /* sidebarmenuicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sidebarmenuicon.png; sourceTree = "<group>"; };
+		C589EB051F81C6F200B06B4D /* sidebarmenuicon 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sidebarmenuicon 2.png"; sourceTree = "<group>"; };
+		C589EB071F81C76500B06B4D /* button 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button 2.png"; sourceTree = "<group>"; };
+		C589EB101F81C89100B06B4D /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainMenuViewController.h; path = ../MainMenuViewController.h; sourceTree = "<group>"; };
+		C589EB111F81C89100B06B4D /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainMenuViewController.m; path = ../MainMenuViewController.m; sourceTree = "<group>"; };
+		C595B2E01F9ED89900D03C2A /* blueDevilText.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueDevilText.png; sourceTree = "<group>"; };
+		C595B2E41F9EDBCD00D03C2A /* CowSkull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CowSkull.png; sourceTree = "<group>"; };
+		C595B2E81F9EDD0C00D03C2A /* COW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = COW.png; sourceTree = "<group>"; };
+		C595B2EA1FA651EE00D03C2A /* CowTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CowTableViewCell.xib; path = ../CowTableViewCell.xib; sourceTree = "<group>"; };
+		C595B2EC1FA6529800D03C2A /* CowTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CowTableViewCell.h; path = ../CowTableViewCell.h; sourceTree = "<group>"; };
+		C595B2ED1FA6529800D03C2A /* CowTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CowTableViewCell.m; path = ../CowTableViewCell.m; sourceTree = "<group>"; };
+		C5F14DD81FF5B36200CE3943 /* AddCowSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCowSecondViewController.h; sourceTree = "<group>"; };
+		C5F14DD91FF5B36200CE3943 /* AddCowSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCowSecondViewController.m; sourceTree = "<group>"; };
+		C5F35B461FFEE0700082AF53 /* CowDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CowDataViewController.h; path = ../CowDataViewController.h; sourceTree = "<group>"; };
+		C5F35B471FFEE0700082AF53 /* CowDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CowDataViewController.m; path = ../CowDataViewController.m; sourceTree = "<group>"; };
+		C5F890E91FF0460400517FBF /* AddCow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AddCow.storyboard; sourceTree = "<group>"; };
+		C5F890EB1FF0469800517FBF /* AddCowFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCowFirstViewController.h; sourceTree = "<group>"; };
+		C5F890EC1FF0469800517FBF /* AddCowFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCowFirstViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C589EAC71F81C37E00B06B4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C589EAE01F81C37F00B06B4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C589EAEB1F81C37F00B06B4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C589EAC11F81C37E00B06B4D = {
+			isa = PBXGroup;
+			children = (
+				C589EACC1F81C37E00B06B4D /* Cow Tracker v2 */,
+				C589EAE61F81C37F00B06B4D /* Cow Tracker v2Tests */,
+				C589EAF11F81C37F00B06B4D /* Cow Tracker v2UITests */,
+				C589EACB1F81C37E00B06B4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C589EACB1F81C37E00B06B4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C589EACA1F81C37E00B06B4D /* Cow Tracker v2.app */,
+				C589EAE31F81C37F00B06B4D /* Cow Tracker v2Tests.xctest */,
+				C589EAEE1F81C37F00B06B4D /* Cow Tracker v2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C589EACC1F81C37E00B06B4D /* Cow Tracker v2 */ = {
+			isa = PBXGroup;
+			children = (
+				C595B2EA1FA651EE00D03C2A /* CowTableViewCell.xib */,
+				C595B2EC1FA6529800D03C2A /* CowTableViewCell.h */,
+				C595B2ED1FA6529800D03C2A /* CowTableViewCell.m */,
+				C595B2E01F9ED89900D03C2A /* blueDevilText.png */,
+				C595B2E41F9EDBCD00D03C2A /* CowSkull.png */,
+				C595B2E81F9EDD0C00D03C2A /* COW.png */,
+				C589EB071F81C76500B06B4D /* button 2.png */,
+				C589EB051F81C6F200B06B4D /* sidebarmenuicon 2.png */,
+				C589EB031F81C69000B06B4D /* sidebarmenuicon.png */,
+				C589EB101F81C89100B06B4D /* MainMenuViewController.h */,
+				C589EB111F81C89100B06B4D /* MainMenuViewController.m */,
+				C589EB001F81C39400B06B4D /* SWRevealViewController.h */,
+				C589EB011F81C39400B06B4D /* SWRevealViewController.m */,
+				C589EAD01F81C37E00B06B4D /* AppDelegate.h */,
+				C589EAD11F81C37E00B06B4D /* AppDelegate.m */,
+				C589EAD31F81C37E00B06B4D /* ViewController.h */,
+				C589EAD41F81C37E00B06B4D /* ViewController.m */,
+				C537202C1F842B9E00D4E7EC /* MangeCowsViewController.h */,
+				C537202D1F842B9E00D4E7EC /* MangeCowsViewController.m */,
+				C53720321F904A7C00D4E7EC /* CreateAccountViewController.h */,
+				C53720331F904A7C00D4E7EC /* CreateAccountViewController.m */,
+				C537202F1F8AED9600D4E7EC /* SignInViewController.h */,
+				C53720301F8AED9600D4E7EC /* SignInViewController.m */,
+				C54B8C641F820C4C006E2A87 /* SignUpViewController.h */,
+				C54B8C651F820C4C006E2A87 /* SignUpViewController.m */,
+				C54B8C661F820C4C006E2A87 /* SignUpViewController.xib */,
+				C589EAD61F81C37E00B06B4D /* Main.storyboard */,
+				C5F890E91FF0460400517FBF /* AddCow.storyboard */,
+				C5F14DD81FF5B36200CE3943 /* AddCowSecondViewController.h */,
+				C5F14DD91FF5B36200CE3943 /* AddCowSecondViewController.m */,
+				C5F890EB1FF0469800517FBF /* AddCowFirstViewController.h */,
+				C5F890EC1FF0469800517FBF /* AddCowFirstViewController.m */,
+				C5F35B461FFEE0700082AF53 /* CowDataViewController.h */,
+				C5F35B471FFEE0700082AF53 /* CowDataViewController.m */,
+				C589EAD91F81C37E00B06B4D /* Assets.xcassets */,
+				C589EADB1F81C37E00B06B4D /* LaunchScreen.storyboard */,
+				C589EADE1F81C37F00B06B4D /* Info.plist */,
+				C589EACD1F81C37E00B06B4D /* Supporting Files */,
+			);
+			path = "Cow Tracker v2";
+			sourceTree = "<group>";
+		};
+		C589EACD1F81C37E00B06B4D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C589EACE1F81C37E00B06B4D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C589EAE61F81C37F00B06B4D /* Cow Tracker v2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C589EAE71F81C37F00B06B4D /* Cow_Tracker_v2Tests.m */,
+				C589EAE91F81C37F00B06B4D /* Info.plist */,
+			);
+			path = "Cow Tracker v2Tests";
+			sourceTree = "<group>";
+		};
+		C589EAF11F81C37F00B06B4D /* Cow Tracker v2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C589EAF21F81C37F00B06B4D /* Cow_Tracker_v2UITests.m */,
+				C589EAF41F81C37F00B06B4D /* Info.plist */,
+			);
+			path = "Cow Tracker v2UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C589EAC91F81C37E00B06B4D /* Cow Tracker v2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C589EAF71F81C37F00B06B4D /* Build configuration list for PBXNativeTarget "Cow Tracker v2" */;
+			buildPhases = (
+				C589EAC61F81C37E00B06B4D /* Sources */,
+				C589EAC71F81C37E00B06B4D /* Frameworks */,
+				C589EAC81F81C37E00B06B4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cow Tracker v2";
+			productName = "Cow Tracker v2";
+			productReference = C589EACA1F81C37E00B06B4D /* Cow Tracker v2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C589EAE21F81C37F00B06B4D /* Cow Tracker v2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C589EAFA1F81C37F00B06B4D /* Build configuration list for PBXNativeTarget "Cow Tracker v2Tests" */;
+			buildPhases = (
+				C589EADF1F81C37F00B06B4D /* Sources */,
+				C589EAE01F81C37F00B06B4D /* Frameworks */,
+				C589EAE11F81C37F00B06B4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C589EAE51F81C37F00B06B4D /* PBXTargetDependency */,
+			);
+			name = "Cow Tracker v2Tests";
+			productName = "Cow Tracker v2Tests";
+			productReference = C589EAE31F81C37F00B06B4D /* Cow Tracker v2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C589EAED1F81C37F00B06B4D /* Cow Tracker v2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C589EAFD1F81C37F00B06B4D /* Build configuration list for PBXNativeTarget "Cow Tracker v2UITests" */;
+			buildPhases = (
+				C589EAEA1F81C37F00B06B4D /* Sources */,
+				C589EAEB1F81C37F00B06B4D /* Frameworks */,
+				C589EAEC1F81C37F00B06B4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C589EAF01F81C37F00B06B4D /* PBXTargetDependency */,
+			);
+			name = "Cow Tracker v2UITests";
+			productName = "Cow Tracker v2UITests";
+			productReference = C589EAEE1F81C37F00B06B4D /* Cow Tracker v2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C589EAC21F81C37E00B06B4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Eric Rhodes";
+				TargetAttributes = {
+					C589EAC91F81C37E00B06B4D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = G442MF557V;
+						ProvisioningStyle = Automatic;
+					};
+					C589EAE21F81C37F00B06B4D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = G442MF557V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C589EAC91F81C37E00B06B4D;
+					};
+					C589EAED1F81C37F00B06B4D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = G442MF557V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C589EAC91F81C37E00B06B4D;
+					};
+				};
+			};
+			buildConfigurationList = C589EAC51F81C37E00B06B4D /* Build configuration list for PBXProject "Cow Tracker v2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C589EAC11F81C37E00B06B4D;
+			productRefGroup = C589EACB1F81C37E00B06B4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C589EAC91F81C37E00B06B4D /* Cow Tracker v2 */,
+				C589EAE21F81C37F00B06B4D /* Cow Tracker v2Tests */,
+				C589EAED1F81C37F00B06B4D /* Cow Tracker v2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C589EAC81F81C37E00B06B4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C589EADD1F81C37E00B06B4D /* LaunchScreen.storyboard in Resources */,
+				C589EADA1F81C37E00B06B4D /* Assets.xcassets in Resources */,
+				C5F890EA1FF0460400517FBF /* AddCow.storyboard in Resources */,
+				C54B8C681F820C4C006E2A87 /* SignUpViewController.xib in Resources */,
+				C595B2E91F9EDD0C00D03C2A /* COW.png in Resources */,
+				C595B2E51F9EDBCD00D03C2A /* CowSkull.png in Resources */,
+				C595B2EB1FA651EE00D03C2A /* CowTableViewCell.xib in Resources */,
+				C589EB041F81C69000B06B4D /* sidebarmenuicon.png in Resources */,
+				C589EB081F81C76500B06B4D /* button 2.png in Resources */,
+				C595B2E11F9ED89900D03C2A /* blueDevilText.png in Resources */,
+				C589EB061F81C6F200B06B4D /* sidebarmenuicon 2.png in Resources */,
+				C589EAD81F81C37E00B06B4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C589EAE11F81C37F00B06B4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C589EAEC1F81C37F00B06B4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C589EAC61F81C37E00B06B4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F890ED1FF0469800517FBF /* AddCowFirstViewController.m in Sources */,
+				C53720311F8AED9700D4E7EC /* SignInViewController.m in Sources */,
+				C595B2EE1FA6529800D03C2A /* CowTableViewCell.m in Sources */,
+				C589EAD51F81C37E00B06B4D /* ViewController.m in Sources */,
+				C537202E1F842B9E00D4E7EC /* MangeCowsViewController.m in Sources */,
+				C5F35B481FFEE0700082AF53 /* CowDataViewController.m in Sources */,
+				C589EAD21F81C37E00B06B4D /* AppDelegate.m in Sources */,
+				C54B8C671F820C4C006E2A87 /* SignUpViewController.m in Sources */,
+				C589EACF1F81C37E00B06B4D /* main.m in Sources */,
+				C5F14DDA1FF5B36200CE3943 /* AddCowSecondViewController.m in Sources */,
+				C589EB021F81C39400B06B4D /* SWRevealViewController.m in Sources */,
+				C589EB121F81C89100B06B4D /* MainMenuViewController.m in Sources */,
+				C53720341F904A7C00D4E7EC /* CreateAccountViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C589EADF1F81C37F00B06B4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C589EAE81F81C37F00B06B4D /* Cow_Tracker_v2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C589EAEA1F81C37F00B06B4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C589EAF31F81C37F00B06B4D /* Cow_Tracker_v2UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C589EAE51F81C37F00B06B4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C589EAC91F81C37E00B06B4D /* Cow Tracker v2 */;
+			targetProxy = C589EAE41F81C37F00B06B4D /* PBXContainerItemProxy */;
+		};
+		C589EAF01F81C37F00B06B4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C589EAC91F81C37E00B06B4D /* Cow Tracker v2 */;
+			targetProxy = C589EAEF1F81C37F00B06B4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C589EAD61F81C37E00B06B4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C589EAD71F81C37E00B06B4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C589EADB1F81C37E00B06B4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C589EADC1F81C37E00B06B4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C589EAF51F81C37F00B06B4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C589EAF61F81C37F00B06B4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C589EAF81F81C37F00B06B4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G442MF557V;
+				INFOPLIST_FILE = "Cow Tracker v2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Rhodes.Cow-Tracker-v2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C589EAF91F81C37F00B06B4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G442MF557V;
+				INFOPLIST_FILE = "Cow Tracker v2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Rhodes.Cow-Tracker-v2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C589EAFB1F81C37F00B06B4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = G442MF557V;
+				INFOPLIST_FILE = "Cow Tracker v2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Rhodes.Cow-Tracker-v2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cow Tracker v2.app/Cow Tracker v2";
+			};
+			name = Debug;
+		};
+		C589EAFC1F81C37F00B06B4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = G442MF557V;
+				INFOPLIST_FILE = "Cow Tracker v2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Rhodes.Cow-Tracker-v2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cow Tracker v2.app/Cow Tracker v2";
+			};
+			name = Release;
+		};
+		C589EAFE1F81C37F00B06B4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = G442MF557V;
+				INFOPLIST_FILE = "Cow Tracker v2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Rhodes.Cow-Tracker-v2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Cow Tracker v2";
+			};
+			name = Debug;
+		};
+		C589EAFF1F81C37F00B06B4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = G442MF557V;
+				INFOPLIST_FILE = "Cow Tracker v2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Rhodes.Cow-Tracker-v2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Cow Tracker v2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C589EAC51F81C37E00B06B4D /* Build configuration list for PBXProject "Cow Tracker v2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C589EAF51F81C37F00B06B4D /* Debug */,
+				C589EAF61F81C37F00B06B4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C589EAF71F81C37F00B06B4D /* Build configuration list for PBXNativeTarget "Cow Tracker v2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C589EAF81F81C37F00B06B4D /* Debug */,
+				C589EAF91F81C37F00B06B4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C589EAFA1F81C37F00B06B4D /* Build configuration list for PBXNativeTarget "Cow Tracker v2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C589EAFB1F81C37F00B06B4D /* Debug */,
+				C589EAFC1F81C37F00B06B4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C589EAFD1F81C37F00B06B4D /* Build configuration list for PBXNativeTarget "Cow Tracker v2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C589EAFE1F81C37F00B06B4D /* Debug */,
+				C589EAFF1F81C37F00B06B4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C589EAC21F81C37E00B06B4D /* Project object */;
+}
